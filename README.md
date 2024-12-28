@@ -37,4 +37,7 @@ qr-code-generator/ │
 ├── requirements.txt # List of required packages
 └── README.md # This file
 
+![image](https://github.com/user-attachments/assets/0c191b7b-9ae3-435a-ac1b-61590be8ca96)
+![image](https://github.com/user-attachments/assets/2205fac0-f9a2-40c9-a3f6-ca2273b70b78)
+
 Happy coding! 💻🔧
