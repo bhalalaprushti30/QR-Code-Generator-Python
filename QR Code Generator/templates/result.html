@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Result</title>
+</head>
+<body>
+    <div class="result-container">
+        <h1>QR Code Generated</h1>
+        <p><strong>Input Data:</strong> {{ data }}</p>
+        <p><strong>QR Code Image:</strong></p>
+        <table border="1">
+            <tr>
+                <th>Input Data</th>
+                <th>QR Code Image</th>
+            </tr>
+            <tr>
+                <td>{{ data }}</td>
+                <td><img src="{{ url_for('static', filename='qr_codes/' + filename) }}" alt="QR Code" width="150" height="150"></td>
+            </tr>
+        </table>
+
+        <br><a href="/">Generate another QR Code</a>
+    </div>
+</body>
+</html>
